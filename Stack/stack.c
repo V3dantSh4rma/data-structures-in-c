@@ -1,4 +1,4 @@
-// Dynamic Stack implementation (FILO)
+// Dynamic Stack implementation (LIFO)
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
