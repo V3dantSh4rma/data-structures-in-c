@@ -1,4 +1,12 @@
 // Dynamic Stack implementation (LIFO)
+/**
+ * Methods:
+ * - push() 
+ * - pop()
+ * - peek() 
+ * - isEmpty()
+ * - displayStack()
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
@@ -24,9 +32,9 @@ Stack *create_empty_stack(){
 }
 
 // check if the stack is empty
-int isEmpty(Stack *sk){
-    if(sk->top == NULL) return  1;
-    return 0;
+bool isEmpty(Stack *sk){
+    if(sk->top == NULL) return  true;
+    return false;
 }
 
 // add the element to the stack
@@ -79,10 +87,8 @@ int main(){
     Stack *stk = create_empty_stack();
     printf("%s", isEmpty(stk) == true ? "true\n": "false\n");
     push(&stk, 69);
-    push(&stk, 70);
-    push(&stk, 71);
-    pop(&stk);
     peek(stk);
+    pop(&stk);
     display_stack(stk);
     return 0;
 }
