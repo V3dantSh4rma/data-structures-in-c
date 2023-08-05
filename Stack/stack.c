@@ -1,5 +1,6 @@
-// Dynamic Stack implementation (LIFO)
 /**
+    Dynamic Stack implementation (LIFO)
+ * 
  * Methods:
  * - push() 
  * - pop()

@@ -20,3 +20,13 @@ stk:
 	gcc ./Stack/stack.c -o main
 	./main.exe
 	del main.exe
+
+q:
+	gcc ./Queue/queue.c -o main
+	./main.exe
+	del main.exe
+
+cq:
+	gcc ./Queue/circular_queue.c -o main
+	./main.exe
+	del main.exe
