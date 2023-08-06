@@ -6,11 +6,11 @@ It currently consists of:
 ```
 - Circular, Doubly, Singly Linked List
 - Dynamic Stack
+- Dynamic Queue, Circular Queue
 ```
 
 # TODO:
 ```
-- Bst
-- Queue
+- Binary Search Trees
 - Graphs
 ```
